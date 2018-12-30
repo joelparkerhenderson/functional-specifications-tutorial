@@ -1,17 +1,54 @@
 # Functional specifications tutorial
 
-This tutorial on functional specifications is adapted from work by [Allen Smith](https://twitter.com/mojofat)
-
 Functional specifications are the blueprint of how a web project or application looks and works. 
 
+Contents:
+
+* [Introduction](#introduction)
+* [Why write a functional spec?](#why-write-a-functional-spec)
+* [Who writes a functional spec?](#who-writes-a-functional-spec)
+* [Define the application](#define-the-application)
+  * [What is the application supposed to be?](#what-is-the-application-supposed-to-be)
+  * [What is the application supposed to do?](#what-is-the-application-supposed-to-do)
+  * [Who is going to be using this application?](#who-is-going-to-be-using-this-application)
+  * [What are the metrics?](#what-are-the-metrics)
+  * [What are similar applications?](#what-are-similar-applications)
+* [Develop models](#develop-models)
+  * [User's conceptual model](#user-s-conceptual-model)
+  * [Designer's model](#designer-s-model)
+  * [Programmer's model](#programmer-s-model)
+* [Define the information flow](#define-the-information-flow)
+  * [Define the navigational elements](#define-the-navigational-elements)
+  * [Diagram the organization of the information (i.e., create flowcharts)](#diagram-the-organization-of-the-information-i-e-create-flowcharts)
+* [Create a prototype](#create-a-prototype)
+  * [Prototype now or later?](#prototype-now-or-later)
+* [Create wireframes and mockups](#create-wireframes-and-mockups)
+  * [Patience and diligence](#patience-and-diligence)
+* [Crete mockups](#crete-mockups)
+  * [Create wireframes for your key pages](#create-wireframes-for-your-key-pages)
+  * [Why create wireframes and mockups if we have already have a prototype?](#why-create-wireframes-and-mockups-if-we-have-already-have-a-prototype)
+  * [Leave out detail](#leave-out-detail)
+* [Create a design document](#create-a-design-document)
+  * [Say very little about...](#say-very-little-about)
+* [Write the spec](#write-the-spec)
+  * [Cover everything](#cover-everything)
+  * [Use lots of screen shots](#use-lots-of-screen-shots)
+  * [Write concisely, correctly, and consistently](#write-concisely-correctly-and-consistently)
+  * [Use the tools and format most comfortable for you](#use-the-tools-and-format-most-comfortable-for-you)
+
+
+## Introduction
+
 Functional specifications explain in detail what the finished product will do, how a user will interact with it, and what it will look like.
+
+This tutorial on functional specifications is adapted from work by [Allen Smith](https://twitter.com/mojofat)
 
 When you create functional specifications at the start of a project, then you can save time and increase productivity during the development of the project, because your developers can focus on development, instead of also trying to work out the logic of the user-experience. 
 
 Functional specifications also help manage the expectations of stakeholders, such as your clients or your managers. This is because the stakeholders will know more about what to expect. 
 
 
-## Why write a Functional Spec?
+## Why write a functional spec?
 
 A key benefit of writing up a Functional Spec is to streamline the development process. 
 
@@ -20,7 +57,7 @@ The developer working from the spec has, ideally, all of their questions answere
 There should be nothing left to guess or interpret when the spec is completed.
 
 
-## Who writes a Functional Spec?
+## Who writes a functional spec?
 
 You want somebody who is familiar with user-interface issues and web design, familiar enough with technology to know its limitations and capabilities, and someone who is a very skilled and detailed writer. While writing a spec, you will spend much of your time imagining how a user might use a certain feature and how they may navigate their way through the information. 
 
@@ -29,7 +66,7 @@ You need to map this world out visually, and you also have to write out in great
 The functional spec writer's sole concern is marrying the user-experience with the various departmental, business, and technical requirements of the project.
 
 
-## Define The Application
+## Define the application
 
 The information gathering process is the critical step of any successful functional spec. Just as important as the finished document is the thinking process you have to force yourself through in order to begin writing. It makes everyone think about what they are building, why they're building it, who will be using it, how they'll be using it, and what it will end up doing.
 
@@ -72,7 +109,7 @@ If what you're developing is similar to other products out there, it can make yo
 Make it a point to perform a very thorough competitive analysis. It help you gain speed faster, and give you an idea of what your competition is like and how to do it better.
 
 
-## Develop Models
+## Develop models
 
 Developing models is a good way to start distilling all of the information you have gathered so far. Models, by definition, are a good way to convey an understanding of the components that make up a system. 
 
@@ -81,21 +118,21 @@ Teachers frequently use models as aids to explain complex ideas; physicists use 
 It may be useful to consider creating three different models: User's Conceptual Model, Designer's Model, and  Programmer's Model.
 
 
-### User's Conceptual Model
+### User's conceptual model
 
 Building this model will be helped greatly by your development of use cases and user personas. Here, you will build a model of your system based around the user's perceptions of the system: not what the system actually is, but how it will be perceived by the user. 
 
 A good example of this is take an e-mail list or a "Clubs" application (like Yahoo! Clubs). The user does not really care whether it is an e-mail list, a club, a web page, or anything. All they care about is the subject: whether that be baseball, german polkas, or Mad magazines.
 
 
-### Designer's Model
+### Designer's model
 
 The designer's model is really the nuts and bolts model for the functional spec writer. This is where the interface components and relationships to be seen and experienced by the user are defined. It details the available objects in the user's universe and how they can use them to accomplish certain tasks. 
 
 It's easier to try and break things out into objects and classes at this point. I find that when I start doing this, the whole system becomes simpler and less complex. Although this topic is much larger than the scope of this tutorial, we can briefly take a look at an example designer's model. 
 
 
-### Programmer's Model
+### Programmer's model
 
 The programmer's model is typically only relevant to the programmer. Ideally, we would create user and designer models, and then pass those off to the programmer who would then build the application. However, every programming environment has inherent limitations and that those constraints must be 
 incorporated into the designer's model. 
@@ -104,7 +141,7 @@ What typically works for me is to have a meeting with the programmer assigned to
 usually walk away with a good idea of what we need to change, what we can work around, and what I need to watch out for as we move forward. 
 
 
-## Define The Information Flow
+## Define the information flow
 
 To start this process, try and make an outline of everything you currently know. Since this tutorial is geared towards web projects, make a list of all the pages you know will be included at this point. 
 
@@ -132,24 +169,24 @@ It is debatable in some circles whether you want to create a prototype at this s
 process, I believe it helps to have this big picture look at a potential finished product while also seeing how the components of the system affect the overall product.
 
 
-### Prototype Now Or Later?
+### Prototype now or later?
 
 Whether you create a prototype now or later, you should definitely have one before you start writing the actual spec. Aside from being a convenience for you and allowing you to possibly iterate your design much faster, it allows your colleagues and stakeholders the opportunity to look at the application and deliver much more specific and useful input about what you are doing. 
 
 
-## Create Wireframes And Mockups
+## Create wireframes and mockups
 
 The amount of time it takes for you to get to this point is totally dependent on the scope of your project and your team. So far, you've had to spend a lot of time talking to a lot of different people to get input on the various requirements for the application. Don't get frustrated if it seems like it's taking a long time or if it becomes tedious (which it will!). 
 
 
-### Patience And Diligence
+### Patience and diligence
 
 Writing the functional spec imposes a lot of discipline on the whole web development cycle and, in turn, can require a good deal of 
 patience and diligence upfront to make it through. The time spent now, though, will reap multiple dividends later. In terms of development time, frustration, and money saved by having a document that spells out exactly what the application is and how it should work, it's a small price to pay at 
 the beginning to avoid a death march. 
 
 
-## Crete Mockups
+## Crete mockups
 
 Now that we have defined our application and mapped out the functionality and information, we're ready to create some mockups. At this point, it is recommended you bring in a graphic designer to develop these for you. Even if you're capable of putting them together, it can be beneficial to have someone else looking through your document and creating these. They'll spot holes in your logic and raise good questions; plus, it will free you up to continue focus on the writing and any final requirements gathering you need to do. A basic process you may want to follow: 
 
@@ -173,7 +210,8 @@ together has been done) and it can provide a nice starting point from which to w
 
 Now, that's why we create the mockups. The wireframes should simply follow the mockups, and here's why we create them. We are going to be drafting a design document in the next section. As you will see, one of the aims of this document is to allow all stakeholders in the project to see a kind of "Sneak Preview" of the upcoming functional spec.
 
-### Leave Out Detail
+
+### Leave out detail
 
 The best way to elicit useful and impartial feedback is to leave as much detail out as possible. Ideally, what you want to do is convey the application and the functionality without bogging the conversations down in discussions of color or branding. This is best done with wireframes. Wireframes are all about getting the right kind of feedback at the right time. So in order to gain useful comments about the layout, navigation, and functionality of the application, we want to strip out as much of the design and visual design as possible. 
 
@@ -184,20 +222,20 @@ It has been my experience that I work faster and end up with a better product wh
 The key for all of this working is having a good team and keeping the communication open.
 
 
-## Create A Design Document
+## Create a design document
 
 As stated in the previous section, a design document serves to collect everything we know about 
 the application at this point into a kind of pre-functional spec document and allow people the opportunity to review it and give their feedback. You will want to use this document as a tool for building consensus and, simultaneously, managing the expectations of people about what is coming.
 
 
-### Say Very Little About...
+### Say very little about...
 
 The key thing about design documents that you want to keep in mind is that they say very little (if anything) about the visual appearance of the application (aside from layout), and they say very little about the specifics of the user experience. If our models from Step 2 are at the 50,000 foot view and our finished spec will be at ground level, then this is somewhere in the neighborhood of 10,000 feet. 
 
 We want to slowly bring the application into focus, reveal some details about the layout and overall structure of the site, and broadly highlight what functionality will be available to the user to do what. Beyond that, you are risking bogging down the project with frivolous discussions that do not matter at this point.
 
 
-## Write The Spec
+## Write the spec
 
 Certainly, this is the most daunting task of the whole process. You've asked the questions, done the preliminary work, made a few mockups, and now it's just you with a blank Word document (or Framemaker, an XML editor, or whatever your preference may be) and a head full of ideas. 
 
