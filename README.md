@@ -186,7 +186,7 @@ patience and diligence upfront to make it through. The time spent now, though, w
 the beginning to avoid a death march. 
 
 
-## Crete mockups
+## Create mockups
 
 Now that we have defined our application and mapped out the functionality and information, we're ready to create some mockups. At this point, it is recommended you bring in a graphic designer to develop these for you. Even if you're capable of putting them together, it can be beneficial to have someone else looking through your document and creating these. They'll spot holes in your logic and raise good questions; plus, it will free you up to continue focus on the writing and any final requirements gathering you need to do. A basic process you may want to follow: 
 
